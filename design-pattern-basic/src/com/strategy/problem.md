@@ -106,6 +106,5 @@ printPrice()를 overriding하게 되어서, Apple, Banana클래스를 수정하�
 
 물론 일일이 입력해줄수 있다. 하지만 또 입력해놓은 부분에 대해서 수정해달라는 요구사항이 발생한다면? 난감한 상황이 될 것이다. 이러한 문제를 해결할 수 있는 방법을 알아보자
 
-##3) Strategy 패턴 - printDuty()를 Fruits클래스를 extends한 서 overriding할 경우 생길 수 있는 문제점에 대한 해결책
-
-
+##3) Strategy 패턴 - printDuty()를 Fruits클래스를 extends한 클래스에서 overriding할 경우 생길 수 있는 문제점에 대한 해결책
+Strategy 패턴을 사용하면, 상위클래스에서 추가하고자 하는 행위를 setter등을 통해 정의함으로서 기능의 추가로 인한 여러소스들을 수정할 필요를 많이 줄여준다.이에 대해서는 solution.md에 정리해놓도록 해야 할 듯 하다.
