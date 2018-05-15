@@ -40,7 +40,13 @@ public class JasperVO {
         this.filePath = filePath;
     }
 
-    public void createFile(String fileName){
+    public String createFile(String fileName){
         System.out.println("I'm a Jasper Object.... ");
+        return "jasper";
+    }
+
+    public String createFile(String fileName, String serviceName){
+        // 나중에 구현 ...
+        return "";
     }
 }
